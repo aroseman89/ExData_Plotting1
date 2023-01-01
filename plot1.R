@@ -12,3 +12,6 @@ hist(as.numeric(as.character(subdata$Global_active_power)),col="red",main="Globa
 
 #Add title
 title(main="Global Active Power")
+
+#Export to png
+png("plot1.png", width=480,height=480)

@@ -23,3 +23,6 @@ legend("topright", lty=1, col=c("black","red","blue"),legend=c("Sub_metering_1",
 
 #Title plot
 title(main="Energy sub-metering")
+
+#Export to PNG
+png("plot3.png", width=480,height=480)
